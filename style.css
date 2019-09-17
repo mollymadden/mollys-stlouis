@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.background {
+  background: url("cadillacrop.jpg") no-repeat center center;
+  background-size: cover;
+
+}
+
+.insta {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid black;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #00827D;  
+  opacity: 0.8;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.navbar a {
+  float: center;
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: 'Cookie', cursive;
+  padding: 14px 40px;
+  text-decoration: none;
+  font-size: 35px;
+  z-index: 3;
+}
+
+.navbar a:hover {
+  background: #004845;
+  color: white;
+}
+
+
